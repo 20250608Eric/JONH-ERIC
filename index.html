@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page-body">
+
+<nav class="navbar">
+    <div class="nav-container">
+
+        <a href="#home" class="logo">My Portfolio</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#academic">Academic</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+            <li class="settings-menu">
+                <button class="settings-btn">Settings</button>
+                <div class="settings-dropdown">
+                    <p class="settings-title">DARK MODE</p>
+                    <div class="darkmode-toggle">
+                        <button onclick="setDarkMode(true)" id="btn-on">ON</button>
+                        <button onclick="setDarkMode(false)" id="btn-off" class="active">OFF</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <section class="home-section" id="home">
+        <div class="home-box">
+            <div class="home-container">
+                <div class="home-text">
+                    <h1>Hello, I am <span id="myname">JONH ERIC BAGUE</span></h1>
+                    <h2>BSIT Student</h2>
+                    <p>I am a BSIT student passionate about technology and web development.</p>
+                </div>
+                <div class="home-pic">
+                    <img src="image.png" alt="My Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <details class="about-roll-box">
+            <summary> Click</summary>
+            <div class="about-content">
+                <p>I am a passionate Bachelor of Science in Information Technology student dedicated to pursuing higher education and building a strong foundation in the tech industry. My main goal is to graduate successfully and establish a career as a Web Developer, creating clean, functional, and user-friendly digital experiences. Above all, I am driven by my family they are my primary motivation to work hard, practice continuous learning, and achieve my dreams.</p>
+            </div>
+        </details>
+    </section>
+
+    <section class="goals-section" id="goals">
+        <h2 class="section-title">Goals</h2>
+        <div class="goals-grid">
+            <div class="goal-box">
+                <h3>Goal 1</h3>
+                <p class="goal-desc">Finish my studies with good grades.</p>
+            </div>
+            <div class="goal-box">
+                <h3>Goal 2</h3>
+                <p class="goal-desc">Help and make my family proud.</p>
+            </div>
+            <div class="goal-box">
+                <h3>Goal 3</h3>
+                <p class="goal-desc">Learn new things and grow as a better person every day.</p>
+            </div>
+            <div class="goal-box">
+                <h3>Goal 4</h3>
+                <p class="goal-desc">Build my own projects and become a successful developer.</p>
+            </div>
+        </div>
+        <div class="goals-desc">
+            <h3>Description </h3>
+            <p>These goals represent my personal journey as a student. They remind me to stay dedicated to my studies, support my family, improve myself continuously, and work hard toward a successful future.</p>
+        </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="exp-grid">
+            <details class="exp-box">
+                <summary>Activity 1</summary>
+                <p>Built a simple website using HTML and CSS.</p>
+            </details>
+            <details class="exp-box">
+                <summary>Activity 2</summary>
+                <p>STEM Research & Technical School Activities.</p>
+            </details>
+            <details class="exp-box">
+                <summary>Competition</summary>
+                <p>Congressional Volleyball Tournament Qualifier.</p>
+            </details>
+            <details class="exp-box">
+                <summary>Experience</summary>
+                <p>Basic AutoCAD Drafting & Architectural Floor Plan Design.</p>
+            </details>
+        </div>
+        <details class="exp-desc-box">
+            <summary>Description</summary>
+            <p>This section highlights my hands-on experiences, past school projects, and athletic achievements. These activities helped me develop technical skills and leadership.</p>
+        </details>
+    </section>
+
+    <section class="academic-section" id="academic">
+        <h2 class="section-title">My Academic Background</h2>
+        <div class="academic-grid">
+            <details class="edu-box">
+                <summary>Elementary</summary>
+                <p>Lutucan 1 Elementary School<br>2012 - 2019</p>
+            </details>
+            <details class="edu-box">
+                <summary>Junior High</summary>
+                <p>Lutucan Integrated National High School<br>2019 - 2023</p>
+            </details> 
+            <details class="edu-box">
+                <summary>Senior High</summary>
+                <p>Lutucan Integrated National High School<br>2023 - 2025</p>
+            </details>
+            <details class="edu-box">
+                <summary>College</summary>
+                <p>College of Sciences, Technology and Communications, Inc.<br>BSIT | 2025 - Present</p>
+            </details>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+    <h2 class="section-title">My Circles & Community</h2>
+    
+    <div class="gallery-top-grid">
+        
+        <div class="slider-box">
+            <h3 class="slider-title">My Family</h3>
+            <div class="carousel-container" id="family-slider">
+                <div class="carousel-track">
+                    <div class="carousel-slide"><img src="image copy.png" alt="Family 1"></div>
+                    <div class="carousel-slide"><img src="image copy 2.png" alt="Family 2"></div>
+                    <div class="carousel-slide"><img src="image copy 3.png" alt="Family 3"></div>
+                    <div class="carousel-slide"><img src="image copy 4.png" alt="Family 4"></div>
+                    <div class="carousel-slide"><img src="image copy 5.png#" alt="Family 5"></div>
+                    <div class="carousel-slide"><img src="image copy 6.png" alt="Family 6"></div>
+                    <div class="carousel-slide"><img src="image copy 7.png" alt="Family 7"></div>
+                </div>
+                <button class="prev-btn">&lt;</button>
+                <button class="next-btn">&gt;</button>
+            </div>
+        </div>
+
+
+        <div class="slider-box">
+            <h3 class="slider-title">My Friends</h3>
+            <div class="carousel-container" id="friends-slider">
+                <div class="carousel-track">
+                    <div class="carousel-slide"><img src="image copy 8.png" alt="Friends 1"></div>
+                    <div class="carousel-slide"><img src="image copy 9.png" alt="Friends 2"></div>
+                    <div class="carousel-slide"><img src="image copy 10.png" alt="Friends 3"></div>
+                    <div class="carousel-slide"><img src="image copy 11.png" alt="Friends 4"></div>
+                    <div class="carousel-slide"><img src="image copy 12.png" alt="Friends 5"></div>
+                    <div class="carousel-slide"><img src="image copy 13.png" alt="Friends 6"></div>
+                    <div class="carousel-slide"><img src="image copy 14.png" alt="Friends 7"></div>
+                </div>
+                <button class="prev-btn">&lt;</button>
+                <button class="next-btn">&gt;</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="gallery-bottom-grid">
+        
+        <div class="slider-box center-slider">
+            <h3 class="slider-title">My Churchmate</h3>
+            <div class="carousel-container" id="church-slider">
+                <div class="carousel-track">
+                    <div class="carousel-slide"><img src="image copy 15.png" alt="Church 1"></div>
+                    <div class="carousel-slide"><img src="image copy 16.png" alt="Church 2"></div>
+                    <div class="carousel-slide"><img src="image copy 17.png" alt="Church 3"></div>
+                    <div class="carousel-slide"><img src="image copy 18.png" alt="Church 4"></div>
+                    <div class="carousel-slide"><img src="image copy 19.png" alt="Church 5"></div>
+                    <div class="carousel-slide"><img src="image copy 20.png" alt="Church 6"></div>
+                    <div class="carousel-slide"><img src="image copy 21.png" alt="Church 7"></div>
+                </div>
+                <button class="prev-btn">&lt;</button>
+                <button class="next-btn">&gt;</button> 
+            </div>
+        </div>
+
+    </div>
+</section>
+</body>
+   <script src="script.js">
+       
+    </script>
+</html>
+
+   <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <details class="contact-card">
+            <summary> Click to Show Contact Info</summary>
+            <div class="contact-info-list">
+                <p><strong>Contact Number:</strong> <a href="tel:094525584641">094525584641</a></p>
+                <p><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=YOUR_PROFILE_ID" target="_blank">JONH ERIC BAGUE</a></p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/simpfor_jnherc" target="_blank">JONH ERIC BAGUE</a></p>
+                <p><strong>Discord:</strong> <a href="#" target="_blank">jonhericbague_09845</a></p>
+                <p><strong>Email:</strong> <a href="mailto:jonhericbague1213@gmail.com">jonhericbague1213@gmail.com</a></p>
+            </div>
+        </details>
+    </section>
+
+    <script>
+        function setDarkMode(isDark) {
+            const body = document.getElementById('page-body');
+            const btnOn = document.getElementById('btn-on');
+            const btnOff = document.getElementById('btn-off');
+
+            if (isDark) {
+                body.classList.add('dark-mode');
+                btnOn.classList.add('active');
+                btnOff.classList.remove('active');
+            } else {
+                body.classList.remove('dark-mode');
+                btnOff.classList.add('active');
+                btnOn.classList.remove('active');
+            }
+        }
+        
+document.querySelectorAll('.carousel-container').forEach(container => {
+            const track = container.querySelector('.carousel-track');
+            const slides = container.querySelectorAll('.carousel-slide');
+            const prevBtn = container.querySelector('.prev-btn');
+            const nextBtn = container.querySelector('.next-btn');
+            
+            let currentIndex = 0;
+            const totalSlides = slides.length;
+
+            function updateSlide() {
+                track.style.transform = `translateX(-${currentIndex * 100}`;
+            }
+
+            nextBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % totalSlides;
+                updateSlide();
+            });
+
+            prevBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+                updateSlide();
+            });
+        });
+
+    
+    </script>
+</body>
+    
+</html>
